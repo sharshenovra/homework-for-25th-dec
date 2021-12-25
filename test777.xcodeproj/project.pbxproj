@@ -13,6 +13,12 @@
 		6046F3FC277600FB0023A639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6046F3FA277600FB0023A639 /* Main.storyboard */; };
 		6046F3FE277600FC0023A639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6046F3FD277600FC0023A639 /* Assets.xcassets */; };
 		6046F401277600FC0023A639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6046F3FF277600FC0023A639 /* LaunchScreen.storyboard */; };
+		60EB1A1927773EAB002EABB0 /* EmpireOfInksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB1A1827773EAB002EABB0 /* EmpireOfInksVC.swift */; };
+		60EB1A1B27773EBD002EABB0 /* ReversiveInkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB1A1A27773EBD002EABB0 /* ReversiveInkVC.swift */; };
+		60EB1A1D27773EC6002EABB0 /* GamepadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB1A1C27773EC6002EABB0 /* GamepadVC.swift */; };
+		60EB1A1F27773ECF002EABB0 /* ChessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB1A1E27773ECF002EABB0 /* ChessVC.swift */; };
+		60EB1A2127773EE0002EABB0 /* FourFlagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB1A2027773EE0002EABB0 /* FourFlagsVC.swift */; };
+		8EE6E3D85ED52E1945E2D419 /* Pods_test777.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF02E124807194DD74C535C /* Pods_test777.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		6046F3FD277600FC0023A639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6046F400277600FC0023A639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6046F402277600FC0023A639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EB1A1827773EAB002EABB0 /* EmpireOfInksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpireOfInksVC.swift; sourceTree = "<group>"; };
+		60EB1A1A27773EBD002EABB0 /* ReversiveInkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversiveInkVC.swift; sourceTree = "<group>"; };
+		60EB1A1C27773EC6002EABB0 /* GamepadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadVC.swift; sourceTree = "<group>"; };
+		60EB1A1E27773ECF002EABB0 /* ChessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessVC.swift; sourceTree = "<group>"; };
+		60EB1A2027773EE0002EABB0 /* FourFlagsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourFlagsVC.swift; sourceTree = "<group>"; };
+		7BF02E124807194DD74C535C /* Pods_test777.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test777.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE01AA35851535327049F413 /* Pods-test777.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test777.debug.xcconfig"; path = "Target Support Files/Pods-test777/Pods-test777.debug.xcconfig"; sourceTree = "<group>"; };
+		D23C43F1A2BD593844EF048A /* Pods-test777.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test777.release.xcconfig"; path = "Target Support Files/Pods-test777/Pods-test777.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE6E3D85ED52E1945E2D419 /* Pods_test777.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0579AFEF5E4F50514D6963B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF02E124807194DD74C535C /* Pods_test777.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6046F3E8277600FB0023A639 = {
 			isa = PBXGroup;
 			children = (
 				6046F3F3277600FB0023A639 /* test777 */,
 				6046F3F2277600FB0023A639 /* Products */,
+				F796A8001B831BAA2BAFE777 /* Pods */,
+				0579AFEF5E4F50514D6963B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +88,22 @@
 				6046F3FD277600FC0023A639 /* Assets.xcassets */,
 				6046F3FF277600FC0023A639 /* LaunchScreen.storyboard */,
 				6046F402277600FC0023A639 /* Info.plist */,
+				60EB1A1827773EAB002EABB0 /* EmpireOfInksVC.swift */,
+				60EB1A1A27773EBD002EABB0 /* ReversiveInkVC.swift */,
+				60EB1A1C27773EC6002EABB0 /* GamepadVC.swift */,
+				60EB1A1E27773ECF002EABB0 /* ChessVC.swift */,
+				60EB1A2027773EE0002EABB0 /* FourFlagsVC.swift */,
 			);
 			path = test777;
+			sourceTree = "<group>";
+		};
+		F796A8001B831BAA2BAFE777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE01AA35851535327049F413 /* Pods-test777.debug.xcconfig */,
+				D23C43F1A2BD593844EF048A /* Pods-test777.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6046F405277600FC0023A639 /* Build configuration list for PBXNativeTarget "test777" */;
 			buildPhases = (
+				E1206BD852D2EBA6C30A2919 /* [CP] Check Pods Manifest.lock */,
 				6046F3ED277600FB0023A639 /* Sources */,
 				6046F3EE277600FB0023A639 /* Frameworks */,
 				6046F3EF277600FB0023A639 /* Resources */,
+				EBF9F09E4C0BB306AB8C4C46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E1206BD852D2EBA6C30A2919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test777-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF9F09E4C0BB306AB8C4C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test777/Pods-test777-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test777/Pods-test777-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test777/Pods-test777-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6046F3ED277600FB0023A639 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EB1A1927773EAB002EABB0 /* EmpireOfInksVC.swift in Sources */,
+				60EB1A1F27773ECF002EABB0 /* ChessVC.swift in Sources */,
 				6046F3F9277600FB0023A639 /* ViewController.swift in Sources */,
+				60EB1A1D27773EC6002EABB0 /* GamepadVC.swift in Sources */,
 				6046F3F5277600FB0023A639 /* AppDelegate.swift in Sources */,
+				60EB1A1B27773EBD002EABB0 /* ReversiveInkVC.swift in Sources */,
+				60EB1A2127773EE0002EABB0 /* FourFlagsVC.swift in Sources */,
 				6046F3F7277600FB0023A639 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +372,7 @@
 		};
 		6046F406277600FC0023A639 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE01AA35851535327049F413 /* Pods-test777.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		6046F407277600FC0023A639 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23C43F1A2BD593844EF048A /* Pods-test777.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
